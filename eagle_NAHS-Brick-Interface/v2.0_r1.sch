@@ -5474,26 +5474,37 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-2.54" y="0.1778" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-0.1778" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <circle x="-3.175" y="-1.905" radius="0.254" width="0.127" layer="21"/>
+<wire x1="-17.5" y1="-20" x2="4" y2="-20" width="0.127" layer="100"/>
+<wire x1="4" y1="-20" x2="4" y2="20" width="0.127" layer="100"/>
+<wire x1="4" y1="20" x2="-17.5" y2="20" width="0.127" layer="100"/>
+<wire x1="-17.5" y1="20" x2="-17.5" y2="-20" width="0.127" layer="100"/>
+<circle x="-8.5" y="15" radius="1.75" width="0.127" layer="100"/>
+<circle x="-8.5" y="-15" radius="1.75" width="0.127" layer="100"/>
+<wire x1="-18.95" y1="4.25" x2="-12.375" y2="4.25" width="0.127" layer="100"/>
+<wire x1="-12.375" y1="4.25" x2="-12.375" y2="-4.25" width="0.127" layer="100"/>
+<wire x1="-12.375" y1="-4.25" x2="-18.95" y2="-4.25" width="0.127" layer="100"/>
+<wire x1="-18.95" y1="-4.25" x2="-18.95" y2="4.25" width="0.127" layer="100"/>
 </package>
 </packages>
 <symbols>
 <symbol name="NAHS-BRICK-INTERFACE-V2">
 <pin name="RX" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="UPDI2" x="-12.7" y="-7.62" visible="pin" length="short"/>
-<pin name="UPDI1" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="UPDI2" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="UPDI1" x="-12.7" y="0" visible="pin" length="short"/>
 <pin name="3.3V" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
 <pin name="5V" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
 <pin name="GND" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
 <pin name="TX" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="PROG" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="SETUP" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="CD" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="PROG" x="-12.7" y="5.08" visible="pin" length="short"/>
+<pin name="SETUP" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="CD" x="-12.7" y="-7.62" visible="pin" length="short"/>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <text x="-10.16" y="10.668" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.668" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="UPDI3" x="-12.7" y="-5.08" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5514,6 +5525,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="TX" pad="5"/>
 <connect gate="G$1" pin="UPDI1" pad="10"/>
 <connect gate="G$1" pin="UPDI2" pad="11"/>
+<connect gate="G$1" pin="UPDI3" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5531,6 +5543,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="TX" pad="6"/>
 <connect gate="G$1" pin="UPDI1" pad="10"/>
 <connect gate="G$1" pin="UPDI2" pad="11"/>
+<connect gate="G$1" pin="UPDI3" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5735,11 +5748,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="109.22" y1="5.08" x2="109.22" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="109.22" y1="12.7" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="5.08" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="5.08" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="5.08" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
 <junction x="88.9" y="5.08"/>
 <pinref part="J1" gate="G$1" pin="CD"/>
-<wire x1="63.5" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="GND"/>
@@ -5791,8 +5804,8 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="PROG"/>
-<wire x1="81.28" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
-<label x="76.2" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
+<label x="78.74" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SETUP" class="0">
@@ -5803,8 +5816,8 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="SETUP"/>
-<wire x1="81.28" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
-<label x="78.74" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+<label x="78.74" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UPDI1" class="0">
@@ -5815,8 +5828,8 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="UPDI1"/>
-<wire x1="81.28" y1="15.24" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
-<label x="78.74" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<label x="78.74" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UPDI2" class="0">
@@ -5827,8 +5840,8 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="UPDI2"/>
-<wire x1="81.28" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
-<label x="76.2" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="17.78" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
+<label x="78.74" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UPDI" class="0">
@@ -5845,6 +5858,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="55.88" y1="91.44" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
 <junction x="55.88" y="91.44"/>
 </segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="1.2"/>
+<wire x1="35.56" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
+<label x="33.02" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -5855,6 +5873,18 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J1" gate="G$1" pin="3.3V"/>
 <wire x1="109.22" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
 <junction x="109.22" y="27.94"/>
+</segment>
+</net>
+<net name="UPDI3" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="1.3"/>
+<wire x1="35.56" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
+<label x="33.02" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="UPDI3"/>
+<wire x1="81.28" y1="15.24" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
+<label x="78.74" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
