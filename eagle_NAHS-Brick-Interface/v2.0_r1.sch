@@ -5504,7 +5504,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <text x="-10.16" y="10.668" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.668" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
-<pin name="UPDI3" x="-12.7" y="-5.08" length="short"/>
+<pin name="UPDI3" x="-12.7" y="-5.08" visible="pin" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
