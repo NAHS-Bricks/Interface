@@ -10,12 +10,13 @@ UsedLibraryUrn="urn:adsk.eagle:library:231"
 UsedLibraryUrn="urn:adsk.eagle:library:334"
 UsedLibraryUrn="urn:adsk.eagle:library:371"
 UsedLibrary="C:/Users/Nils Ostrowski/workspace/EagleLib/no_brick_interface.lbr"
+UsedLibrary="C:/Users/Nils Ostrowski/workspace/EagleLib/no_images.lbr"
 UsedLibrary="C:/Users/Nils Ostrowski/workspace/EagleLib/no_pinhd.lbr"
 
 [Win_1]
 Type="Schematic Editor"
 Number=1
-File="v3.0_r1.sch"
+File="v3.0_r2.sch"
 View="-5.35077 -7.00806 139.753 103.522"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
@@ -61,9 +62,9 @@ Sheet="1"
 [Win_2]
 Type="Board Editor"
 Number=2
-File="v3.0_r1.brd"
-View="-1.9937 -0.879247 24.9789 40.8792"
-WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.3048 0.508 0.6096 0.8128 1.016 1.27 2.54 0.4064 0.1524 0.254"
+File="v3.0_r2.brd"
+View="-1.98602 -0.813125 24.5872 36.9698"
+WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524 0.254"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
 ViaDiameters=" 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1 1.05 1.1 1.15 1.2 1.3 0"
@@ -100,7 +101,7 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=16
+Layer=51
 
 [Win_3]
 Type="Control Panel"
