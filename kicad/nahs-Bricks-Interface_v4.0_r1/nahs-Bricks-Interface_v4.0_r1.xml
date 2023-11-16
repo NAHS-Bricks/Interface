@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/nijo/workspace/nahs-Brick-Interface/kicad/nahs-Brick-Interface_v4_r1/nahs-Brick-Interface_v4_r1.kicad_sch</source>
-    <date>So 11 Sep 2022 06:14:07 CEST</date>
+    <source>/home/nijo/workspace/nahs-Brick-Interface/kicad/nahs-Brick-Interface_v4_r1.kicad_sch</source>
+    <date>So 25 Sep 2022 21:29:36 CEST</date>
     <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -931,241 +931,239 @@
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="VDD3" pintype="input"/>
     </net>
-    <net code="19" name="Net-(R1-Pad2)">
+    <net code="19" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Shield" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="RSTb" pintype="input"/>
     </net>
-    <net code="20" name="Net-(R2-Pad2)">
+    <net code="21" name="Net-(R2-Pad2)">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="VBUS" pintype="input"/>
     </net>
-    <net code="21" name="Net-(U1-Pad15)">
+    <net code="22" name="Net-(U1-Pad15)">
       <node ref="U1" pin="15" pinfunction="XOUT" pintype="input"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(U1-Pad16)">
+    <net code="23" name="Net-(U1-Pad16)">
       <node ref="U1" pin="16" pinfunction="XIN" pintype="input"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="23" name="PROG">
+    <net code="24" name="PROG">
       <node ref="J1" pin="B12" pinfunction="PROG" pintype="input"/>
       <node ref="J2" pin="B12" pinfunction="PROG" pintype="input"/>
       <node ref="SW1" pin="8" pintype="input"/>
     </net>
-    <net code="24" name="RST">
+    <net code="25" name="RST">
       <node ref="J1" pin="B14" pinfunction="RST" pintype="input"/>
       <node ref="J2" pin="B14" pinfunction="RST" pintype="input"/>
       <node ref="SW4" pin="3" pintype="input"/>
       <node ref="SW4" pin="4" pintype="input"/>
     </net>
-    <net code="25" name="RXD">
+    <net code="26" name="RXD">
       <node ref="J1" pin="A12" pinfunction="RX" pintype="input"/>
       <node ref="J2" pin="A12" pinfunction="RX" pintype="input"/>
       <node ref="U2" pin="18" pinfunction="TXD" pintype="input"/>
       <node ref="U3" pin="1" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="26" name="SCL">
+    <net code="27" name="SCL">
       <node ref="J1" pin="A9" pinfunction="SCL" pintype="input"/>
       <node ref="J2" pin="A9" pinfunction="SCL" pintype="input"/>
       <node ref="JP4" pin="1" pintype="input"/>
     </net>
-    <net code="27" name="SDA">
+    <net code="28" name="SDA">
       <node ref="J1" pin="B9" pinfunction="SDA" pintype="input"/>
       <node ref="J2" pin="B9" pinfunction="SDA" pintype="input"/>
       <node ref="JP4" pin="2" pintype="input"/>
     </net>
-    <net code="28" name="SETUP">
+    <net code="29" name="SETUP">
       <node ref="J1" pin="B13" pinfunction="SETUP" pintype="input"/>
       <node ref="J2" pin="B13" pinfunction="SETUP" pintype="input"/>
       <node ref="SW1" pin="5" pintype="input"/>
     </net>
-    <net code="29" name="TXD">
+    <net code="30" name="TXD">
       <node ref="J1" pin="A13" pinfunction="TX" pintype="input"/>
       <node ref="J2" pin="A13" pinfunction="TX" pintype="input"/>
       <node ref="U2" pin="17" pinfunction="RXD" pintype="input"/>
       <node ref="U3" pin="5" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="30" name="UPDI">
+    <net code="31" name="UPDI">
       <node ref="JP1" pin="4" pintype="input"/>
       <node ref="JP2" pin="3" pintype="input"/>
       <node ref="SW2" pin="2" pintype="input"/>
       <node ref="SW2" pin="6" pintype="input"/>
       <node ref="SW2" pin="7" pintype="input"/>
     </net>
-    <net code="31" name="UPDI1">
+    <net code="32" name="UPDI1">
       <node ref="J1" pin="A11" pinfunction="UPDI1" pintype="input"/>
       <node ref="J2" pin="A11" pinfunction="UPDI1" pintype="input"/>
       <node ref="SW2" pin="5" pintype="input"/>
     </net>
-    <net code="32" name="UPDI2">
+    <net code="33" name="UPDI2">
       <node ref="J1" pin="A10" pinfunction="UPDI2" pintype="input"/>
       <node ref="J2" pin="A10" pinfunction="UPDI2" pintype="input"/>
       <node ref="SW2" pin="8" pintype="input"/>
     </net>
-    <net code="33" name="UPDI3">
+    <net code="34" name="UPDI3">
       <node ref="J1" pin="B10" pinfunction="UPDI3" pintype="input"/>
       <node ref="J2" pin="B10" pinfunction="UPDI3" pintype="input"/>
       <node ref="SW2" pin="3" pintype="input"/>
     </net>
-    <net code="34" name="UPDI_TV">
+    <net code="35" name="UPDI_TV">
       <node ref="JP1" pin="2" pintype="input"/>
       <node ref="JP2" pin="1" pintype="input"/>
       <node ref="SW3" pin="2" pintype="input"/>
       <node ref="SW3" pin="3" pintype="input"/>
     </net>
-    <net code="35" name="UTIL1">
+    <net code="36" name="UTIL1">
       <node ref="J1" pin="B1" pinfunction="UTIL1" pintype="input"/>
       <node ref="J2" pin="B1" pinfunction="UTIL1" pintype="input"/>
       <node ref="JP5" pin="8" pintype="input"/>
     </net>
-    <net code="36" name="UTIL2">
+    <net code="37" name="UTIL2">
       <node ref="J1" pin="B2" pinfunction="UTIL2" pintype="input"/>
       <node ref="J2" pin="B2" pinfunction="UTIL2" pintype="input"/>
       <node ref="JP5" pin="7" pintype="input"/>
     </net>
-    <net code="37" name="UTIL3">
+    <net code="38" name="UTIL3">
       <node ref="J1" pin="B3" pinfunction="UTIL3" pintype="input"/>
       <node ref="J2" pin="B3" pinfunction="UTIL3" pintype="input"/>
       <node ref="JP5" pin="6" pintype="input"/>
     </net>
-    <net code="38" name="UTIL4">
+    <net code="39" name="UTIL4">
       <node ref="J1" pin="B4" pinfunction="UTIL4" pintype="input"/>
       <node ref="J2" pin="B4" pinfunction="UTIL4" pintype="input"/>
       <node ref="JP5" pin="5" pintype="input"/>
     </net>
-    <net code="39" name="UTIL5">
+    <net code="40" name="UTIL5">
       <node ref="J1" pin="A1" pinfunction="UTIL5" pintype="input"/>
       <node ref="J2" pin="A1" pinfunction="UTIL5" pintype="input"/>
       <node ref="JP5" pin="1" pintype="input"/>
     </net>
-    <net code="40" name="UTIL6">
+    <net code="41" name="UTIL6">
       <node ref="J1" pin="A2" pinfunction="UTIL6" pintype="input"/>
       <node ref="J2" pin="A2" pinfunction="UTIL6" pintype="input"/>
       <node ref="JP5" pin="2" pintype="input"/>
     </net>
-    <net code="41" name="UTIL7">
+    <net code="42" name="UTIL7">
       <node ref="J1" pin="A3" pinfunction="UTIL7" pintype="input"/>
       <node ref="J2" pin="A3" pinfunction="UTIL7" pintype="input"/>
       <node ref="JP5" pin="3" pintype="input"/>
     </net>
-    <net code="42" name="UTIL8">
+    <net code="43" name="UTIL8">
       <node ref="J1" pin="A4" pinfunction="UTIL8" pintype="input"/>
       <node ref="J2" pin="A4" pinfunction="UTIL8" pintype="input"/>
       <node ref="JP5" pin="4" pintype="input"/>
     </net>
-    <net code="43" name="unconnected-(J3-Pad5)">
-      <node ref="J3" pin="5" pinfunction="Shield" pintype="passive"/>
-    </net>
-    <net code="44" name="unconnected-(J4-Pad5)">
-      <node ref="J4" pin="5" pinfunction="Shield" pintype="passive"/>
-    </net>
-    <net code="45" name="unconnected-(JP1-Pad1)">
+    <net code="44" name="unconnected-(JP1-Pad1)">
       <node ref="JP1" pin="1" pintype="input"/>
     </net>
-    <net code="46" name="unconnected-(SW1-Pad1)">
+    <net code="45" name="unconnected-(SW1-Pad1)">
       <node ref="SW1" pin="1" pintype="input"/>
     </net>
-    <net code="47" name="unconnected-(SW1-Pad2)">
+    <net code="46" name="unconnected-(SW1-Pad2)">
       <node ref="SW1" pin="2" pintype="input"/>
     </net>
-    <net code="48" name="unconnected-(SW1-Pad3)">
+    <net code="47" name="unconnected-(SW1-Pad3)">
       <node ref="SW1" pin="3" pintype="input"/>
     </net>
-    <net code="49" name="unconnected-(SW1-Pad4)">
+    <net code="48" name="unconnected-(SW1-Pad4)">
       <node ref="SW1" pin="4" pintype="input"/>
     </net>
-    <net code="50" name="unconnected-(SW2-Pad1)">
+    <net code="49" name="unconnected-(SW2-Pad1)">
       <node ref="SW2" pin="1" pintype="input"/>
     </net>
-    <net code="51" name="unconnected-(SW2-Pad4)">
+    <net code="50" name="unconnected-(SW2-Pad4)">
       <node ref="SW2" pin="4" pintype="input"/>
     </net>
-    <net code="52" name="unconnected-(SW3-Pad5)">
+    <net code="51" name="unconnected-(SW3-Pad5)">
       <node ref="SW3" pin="5" pintype="input"/>
     </net>
-    <net code="53" name="unconnected-(SW3-Pad6)">
+    <net code="52" name="unconnected-(SW3-Pad6)">
       <node ref="SW3" pin="6" pintype="input"/>
     </net>
-    <net code="54" name="unconnected-(SW3-Pad7)">
+    <net code="53" name="unconnected-(SW3-Pad7)">
       <node ref="SW3" pin="7" pintype="input"/>
     </net>
-    <net code="55" name="unconnected-(SW3-Pad8)">
+    <net code="54" name="unconnected-(SW3-Pad8)">
       <node ref="SW3" pin="8" pintype="input"/>
     </net>
-    <net code="56" name="unconnected-(U2-Pad1)">
+    <net code="55" name="unconnected-(U2-Pad1)">
       <node ref="U2" pin="1" pinfunction="GPIO.1/RS485" pintype="input"/>
     </net>
-    <net code="57" name="unconnected-(U2-Pad2)">
+    <net code="56" name="unconnected-(U2-Pad2)">
       <node ref="U2" pin="2" pinfunction="GPIO.0/CLK" pintype="input"/>
     </net>
-    <net code="58" name="unconnected-(U2-Pad10)">
+    <net code="57" name="unconnected-(U2-Pad10)">
       <node ref="U2" pin="10" pintype="no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U2-Pad11)">
+    <net code="58" name="unconnected-(U2-Pad11)">
       <node ref="U2" pin="11" pinfunction="SUSPENDb" pintype="input"/>
     </net>
-    <net code="60" name="unconnected-(U2-Pad13)">
+    <net code="59" name="unconnected-(U2-Pad13)">
       <node ref="U2" pin="13" pinfunction="WAKEUP" pintype="input"/>
     </net>
-    <net code="61" name="unconnected-(U2-Pad14)">
+    <net code="60" name="unconnected-(U2-Pad14)">
       <node ref="U2" pin="14" pinfunction="SUSPEND" pintype="input"/>
     </net>
-    <net code="62" name="unconnected-(U2-Pad15)">
+    <net code="61" name="unconnected-(U2-Pad15)">
       <node ref="U2" pin="15" pinfunction="CTS" pintype="input"/>
     </net>
-    <net code="63" name="unconnected-(U2-Pad16)">
+    <net code="62" name="unconnected-(U2-Pad16)">
       <node ref="U2" pin="16" pinfunction="RTS" pintype="input"/>
     </net>
-    <net code="64" name="unconnected-(U2-Pad19)">
+    <net code="63" name="unconnected-(U2-Pad19)">
       <node ref="U2" pin="19" pinfunction="GPIO.3/RXT" pintype="input"/>
     </net>
-    <net code="65" name="unconnected-(U2-Pad20)">
+    <net code="64" name="unconnected-(U2-Pad20)">
       <node ref="U2" pin="20" pinfunction="GPIO.2/TXT" pintype="input"/>
     </net>
-    <net code="66" name="unconnected-(U3-Pad2)">
+    <net code="65" name="unconnected-(U3-Pad2)">
       <node ref="U3" pin="2" pinfunction="DTR" pintype="output"/>
     </net>
-    <net code="67" name="unconnected-(U3-Pad3)">
+    <net code="66" name="unconnected-(U3-Pad3)">
       <node ref="U3" pin="3" pinfunction="RTS" pintype="output"/>
     </net>
-    <net code="68" name="unconnected-(U3-Pad6)">
+    <net code="67" name="unconnected-(U3-Pad6)">
       <node ref="U3" pin="6" pinfunction="RI" pintype="input"/>
     </net>
-    <net code="69" name="unconnected-(U3-Pad9)">
+    <net code="68" name="unconnected-(U3-Pad9)">
       <node ref="U3" pin="9" pinfunction="DCR" pintype="input"/>
     </net>
-    <net code="70" name="unconnected-(U3-Pad10)">
+    <net code="69" name="unconnected-(U3-Pad10)">
       <node ref="U3" pin="10" pinfunction="DCD" pintype="input"/>
     </net>
-    <net code="71" name="unconnected-(U3-Pad11)">
+    <net code="70" name="unconnected-(U3-Pad11)">
       <node ref="U3" pin="11" pinfunction="CTS" pintype="input"/>
     </net>
-    <net code="72" name="unconnected-(U3-Pad12)">
+    <net code="71" name="unconnected-(U3-Pad12)">
       <node ref="U3" pin="12" pinfunction="CBUS4" pintype="bidirectional"/>
     </net>
-    <net code="73" name="unconnected-(U3-Pad13)">
+    <net code="72" name="unconnected-(U3-Pad13)">
       <node ref="U3" pin="13" pinfunction="CBUS2" pintype="bidirectional"/>
     </net>
-    <net code="74" name="unconnected-(U3-Pad14)">
+    <net code="73" name="unconnected-(U3-Pad14)">
       <node ref="U3" pin="14" pinfunction="CBUS3" pintype="bidirectional"/>
     </net>
-    <net code="75" name="unconnected-(U3-Pad19)">
+    <net code="74" name="unconnected-(U3-Pad19)">
       <node ref="U3" pin="19" pinfunction="~{RESET}" pintype="input"/>
     </net>
-    <net code="76" name="unconnected-(U3-Pad22)">
+    <net code="75" name="unconnected-(U3-Pad22)">
       <node ref="U3" pin="22" pinfunction="CBUS1" pintype="bidirectional"/>
     </net>
-    <net code="77" name="unconnected-(U3-Pad23)">
+    <net code="76" name="unconnected-(U3-Pad23)">
       <node ref="U3" pin="23" pinfunction="CBUS0" pintype="bidirectional"/>
     </net>
-    <net code="78" name="unconnected-(U3-Pad26)">
+    <net code="77" name="unconnected-(U3-Pad26)">
       <node ref="U3" pin="26" pinfunction="TEST" pintype="input"/>
     </net>
-    <net code="79" name="unconnected-(U3-Pad27)">
+    <net code="78" name="unconnected-(U3-Pad27)">
       <node ref="U3" pin="27" pinfunction="OSCI" pintype="input"/>
     </net>
-    <net code="80" name="unconnected-(U3-Pad28)">
+    <net code="79" name="unconnected-(U3-Pad28)">
       <node ref="U3" pin="28" pinfunction="OSCO" pintype="output"/>
     </net>
   </nets>
