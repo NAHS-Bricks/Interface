@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/nijo/workspace/nahs-Bricks-GitHub/Interface/kicad/nahs-Bricks-Interface_v4.0_r2/nahs-Bricks-Interface_v4.0_r2.kicad_sch</source>
-    <date>Fr 17 Nov 2023 22:33:46 CET</date>
+    <date>Mi 22 Nov 2023 08:47:43 CET</date>
     <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -27,7 +27,11 @@
     <comp ref="C3">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG4</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Storage" value="MAG4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -36,7 +40,11 @@
     <comp ref="C4">
       <value>4.7µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG4</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Storage" value="MAG4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -45,7 +53,11 @@
     <comp ref="C5">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG4</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Storage" value="MAG4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,7 +66,11 @@
     <comp ref="C6">
       <value>4.7µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG4</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Storage" value="MAG4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,7 +79,13 @@
     <comp ref="C7">
       <value>100µF/16V</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
+      <fields>
+        <field name="Storage">SK1 4x1</field>
+        <field name="StorageDesc">100µF</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Storage" value="SK1 4x1"/>
+      <property name="StorageDesc" value="100µF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,7 +94,11 @@
     <comp ref="C8">
       <value>10µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG4</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Storage" value="MAG4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,7 +107,11 @@
     <comp ref="C9">
       <value>10µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG4</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Storage" value="MAG4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -90,7 +120,11 @@
     <comp ref="C10">
       <value>10µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG4</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Storage" value="MAG4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -99,7 +133,13 @@
     <comp ref="C11">
       <value>100µF/16V</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
+      <fields>
+        <field name="Storage">SK1 4x1</field>
+        <field name="StorageDesc">100µF</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Storage" value="SK1 4x1"/>
+      <property name="StorageDesc" value="100µF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -109,10 +149,14 @@
       <value>RED</value>
       <footprint>no_common:LED_0805_2012Metric</footprint>
       <fields>
-        <field name="Desc">PWD</field>
+        <field name="Desc">PWR</field>
+        <field name="Storage">MAG4</field>
+        <field name="StorageDesc">LED OrangeRed</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Desc" value="PWD"/>
+      <property name="Desc" value="PWR"/>
+      <property name="Storage" value="MAG4"/>
+      <property name="StorageDesc" value="LED OrangeRed"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -123,9 +167,13 @@
       <footprint>no_common:LED_0805_2012Metric</footprint>
       <fields>
         <field name="Desc">BRICK</field>
+        <field name="Storage">MAG4</field>
+        <field name="StorageDesc">LED OrangeRed</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Desc" value="BRICK"/>
+      <property name="Storage" value="MAG4"/>
+      <property name="StorageDesc" value="LED OrangeRed"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -136,9 +184,13 @@
       <footprint>no_common:LED_0805_2012Metric</footprint>
       <fields>
         <field name="Desc">TX</field>
+        <field name="Storage">MAG4</field>
+        <field name="StorageDesc">LED Green</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Desc" value="TX"/>
+      <property name="Storage" value="MAG4"/>
+      <property name="StorageDesc" value="LED Green"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -149,9 +201,13 @@
       <footprint>no_common:LED_0805_2012Metric</footprint>
       <fields>
         <field name="Desc">RX</field>
+        <field name="Storage">MAG4</field>
+        <field name="StorageDesc">LED Green</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Desc" value="RX"/>
+      <property name="Storage" value="MAG4"/>
+      <property name="StorageDesc" value="LED Green"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -160,7 +216,13 @@
     <comp ref="F1">
       <value>50mA</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Storage">SK1 4x4</field>
+        <field name="StorageDesc">Fuse 50mA</field>
+      </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Storage" value="SK1 4x4"/>
+      <property name="StorageDesc" value="Fuse 50mA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -169,7 +231,12 @@
     <comp ref="FID1">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <fields>
+        <field name="DNP">true</field>
+      </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="StorageDesc" value=""/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -178,7 +245,12 @@
     <comp ref="FID2">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <fields>
+        <field name="DNP">true</field>
+      </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="StorageDesc" value=""/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -187,7 +259,12 @@
     <comp ref="FID3">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <fields>
+        <field name="DNP">true</field>
+      </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="StorageDesc" value=""/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -196,7 +273,15 @@
     <comp ref="J1">
       <value>Brick-Interface-V4</value>
       <footprint>no_brick_interface:Brick_Interface_V4_iside</footprint>
+      <fields>
+        <field name="Handsolder">true</field>
+        <field name="Storage">SK2 1x4</field>
+        <field name="StorageDesc">PCIE 1x THD</field>
+      </fields>
       <libsource lib="no_brick_interface" part="Brick-Interface-V4" description=""/>
+      <property name="Handsolder" value="true"/>
+      <property name="Storage" value="SK2 1x4"/>
+      <property name="StorageDesc" value="PCIE 1x THD"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -205,7 +290,15 @@
     <comp ref="J2">
       <value>Brick-Interface-V4</value>
       <footprint>no_brick_interface:Brick_Interface_V4_iside_straddle</footprint>
+      <fields>
+        <field name="Handsolder">true</field>
+        <field name="Storage">SK2 1x4</field>
+        <field name="StorageDesc">PCIE 1x Straddle</field>
+      </fields>
       <libsource lib="no_brick_interface" part="Brick-Interface-V4" description=""/>
+      <property name="Handsolder" value="true"/>
+      <property name="Storage" value="SK2 1x4"/>
+      <property name="StorageDesc" value="PCIE 1x Straddle"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -214,7 +307,15 @@
     <comp ref="J3">
       <value>TE_292304-1</value>
       <footprint>Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal</footprint>
+      <fields>
+        <field name="Handsolder">true</field>
+        <field name="Storage">SK2 1x3</field>
+        <field name="StorageDesc">USB TypeB</field>
+      </fields>
       <libsource lib="no_common" part="TE_292304-1" description="USB Type B connector"/>
+      <property name="Handsolder" value="true"/>
+      <property name="Storage" value="SK2 1x3"/>
+      <property name="StorageDesc" value="USB TypeB"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -223,7 +324,15 @@
     <comp ref="J4">
       <value>TE_292303-1</value>
       <footprint>Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal</footprint>
+      <fields>
+        <field name="Handsolder">true</field>
+        <field name="Storage">SK2 1x3</field>
+        <field name="StorageDesc">USB TypeA</field>
+      </fields>
       <libsource lib="no_common" part="TE_292303-1" description="USB Type A connector"/>
+      <property name="Handsolder" value="true"/>
+      <property name="Storage" value="SK2 1x3"/>
+      <property name="StorageDesc" value="USB TypeA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -233,6 +342,7 @@
       <value>PINHD_1X04</value>
       <footprint>no_pinhd:PINHD_1X04_2.54_1mm_Round</footprint>
       <fields>
+        <field name="DNP">true</field>
         <field name="Desc">PICKIT4</field>
         <field name="Reference">JP1</field>
         <field name="Value">PINHD_1X04</field>
@@ -241,6 +351,7 @@
       <property name="Desc" value="PICKIT4"/>
       <property name="Reference" value="JP1"/>
       <property name="Value" value="PINHD_1X04"/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -250,6 +361,7 @@
       <value>PINHD_1X03</value>
       <footprint>no_pinhd:PINHD_1X03_2.54_1mm_Round</footprint>
       <fields>
+        <field name="DNP">true</field>
         <field name="Desc">UPDI</field>
         <field name="Reference">JP2</field>
         <field name="Value">PINHD_1X03</field>
@@ -258,6 +370,7 @@
       <property name="Desc" value="UPDI"/>
       <property name="Reference" value="JP2"/>
       <property name="Value" value="PINHD_1X03"/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -267,6 +380,7 @@
       <value>PINHD_2X03</value>
       <footprint>no_pinhd:PINHD_2X03_2.54_1mm_Round</footprint>
       <fields>
+        <field name="DNP">true</field>
         <field name="Desc">POWER_OUT</field>
         <field name="Reference">JP3</field>
         <field name="Value">PINHD_2X03</field>
@@ -275,6 +389,7 @@
       <property name="Desc" value="POWER_OUT"/>
       <property name="Reference" value="JP3"/>
       <property name="Value" value="PINHD_2X03"/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -284,6 +399,7 @@
       <value>PINHD_1x02</value>
       <footprint>no_pinhd:PINHD_1X02_2.54_1mm_Round</footprint>
       <fields>
+        <field name="DNP">true</field>
         <field name="Desc">I2C_OUT</field>
         <field name="Reference">JP4</field>
         <field name="Value">PINHD_1x02</field>
@@ -292,6 +408,7 @@
       <property name="Desc" value="I2C_OUT"/>
       <property name="Reference" value="JP4"/>
       <property name="Value" value="PINHD_1x02"/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -301,6 +418,7 @@
       <value>PINHD_2X04</value>
       <footprint>no_pinhd:PINHD_2X04_2.54_1mm_Round</footprint>
       <fields>
+        <field name="DNP">true</field>
         <field name="Desc">UTIL_OUT</field>
         <field name="Reference">JP5</field>
         <field name="Value">PINHD_2X04</field>
@@ -309,28 +427,35 @@
       <property name="Desc" value="UTIL_OUT"/>
       <property name="Reference" value="JP5"/>
       <property name="Value" value="PINHD_2X04"/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f27d39de-1750-4074-b8d3-1e32ae5c2252 fa34973f-9204-4dd9-805f-e4daf664db74 78ec3fcb-e235-47ee-b60d-4d2a8c099b4c 8381ca95-00dd-49cf-b6a4-67cc17629327 c15c13c1-724b-4237-8b3d-20765dcfa517 dbd896f9-ed49-41ce-a8de-c33b2a462d8b ea8dda50-c19b-4b61-acbd-8b2ce8a2676b 38b64376-e2be-46ee-b616-f93315d5445f</tstamps>
+      <tstamps>f27d39de-1750-4074-b8d3-1e32ae5c2252 fa34973f-9204-4dd9-805f-e4daf664db74 c15c13c1-724b-4237-8b3d-20765dcfa517 dbd896f9-ed49-41ce-a8de-c33b2a462d8b 78ec3fcb-e235-47ee-b60d-4d2a8c099b4c 8381ca95-00dd-49cf-b6a4-67cc17629327 ea8dda50-c19b-4b61-acbd-8b2ce8a2676b 38b64376-e2be-46ee-b616-f93315d5445f</tstamps>
     </comp>
     <comp ref="JP6">
       <value>PINHD_1X04</value>
       <footprint>no_pinhd:PINHD_1X04_2.54_1mm_Round</footprint>
       <fields>
+        <field name="DNP">true</field>
         <field name="Desc">UART</field>
       </fields>
       <libsource lib="no_pinhd" part="PINHD_1X04" description=""/>
       <property name="Desc" value="UART"/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ee1bf086-95b8-46da-a7de-786cc5f2dd4a ee2973f8-d045-4d74-8cff-5f9273d693c4 666969c0-7475-4e58-8404-ee8e13262a4a 2c5bf8d9-4f2a-4eae-95ab-ddc1b17fb8d4</tstamps>
+      <tstamps>ee2973f8-d045-4d74-8cff-5f9273d693c4 666969c0-7475-4e58-8404-ee8e13262a4a ee1bf086-95b8-46da-a7de-786cc5f2dd4a 2c5bf8d9-4f2a-4eae-95ab-ddc1b17fb8d4</tstamps>
     </comp>
     <comp ref="LOGO1">
       <value>brick_logo</value>
       <footprint>no_brick_logo:x8mm</footprint>
+      <fields>
+        <field name="DNP">true</field>
+      </fields>
       <libsource lib="no_brick_logo" part="brick_logo" description=""/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -339,7 +464,11 @@
     <comp ref="LOGO2">
       <value>brick_logo</value>
       <footprint>no_brick_logo:x17mm</footprint>
+      <fields>
+        <field name="DNP">true</field>
+      </fields>
       <libsource lib="no_brick_logo" part="brick_logo" description=""/>
+      <property name="DNP" value="true"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -348,7 +477,13 @@
     <comp ref="R1">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Desc">MAG1</field>
+        <field name="Storage">MAG1</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Desc" value="MAG1"/>
+      <property name="Storage" value="MAG1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -357,7 +492,11 @@
     <comp ref="R2">
       <value>22k1</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Storage" value="MAG2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -366,7 +505,11 @@
     <comp ref="R3">
       <value>47k5</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Storage">MAG2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Storage" value="MAG2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -375,7 +518,13 @@
     <comp ref="R4">
       <value>330</value>
       <footprint>no_common:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Storage">MAG1</field>
+        <field name="StorageDesc">6030</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Storage" value="MAG1"/>
+      <property name="StorageDesc" value="6030"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -384,7 +533,13 @@
     <comp ref="R5">
       <value>330</value>
       <footprint>no_common:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Storage">MAG1</field>
+        <field name="StorageDesc">6030</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Storage" value="MAG1"/>
+      <property name="StorageDesc" value="6030"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -393,7 +548,13 @@
     <comp ref="R6">
       <value>510</value>
       <footprint>no_common:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Storage">MAG1</field>
+        <field name="StorageDesc">6030</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Storage" value="MAG1"/>
+      <property name="StorageDesc" value="6030"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -402,7 +563,13 @@
     <comp ref="R7">
       <value>330</value>
       <footprint>no_common:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Storage">MAG1</field>
+        <field name="StorageDesc">6030</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Storage" value="MAG1"/>
+      <property name="StorageDesc" value="6030"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -413,9 +580,13 @@
       <footprint>no_common:K3-2336S-F1</footprint>
       <fields>
         <field name="Desc">MODE</field>
+        <field name="Storage">SK1 2x2</field>
+        <field name="StorageDesc">K3-2336S-F1</field>
       </fields>
       <libsource lib="no_common" part="K3-2336S-F1" description=""/>
       <property name="Desc" value="MODE"/>
+      <property name="Storage" value="SK1 2x2"/>
+      <property name="StorageDesc" value="K3-2336S-F1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -426,9 +597,13 @@
       <footprint>no_common:K3-2336S-F1</footprint>
       <fields>
         <field name="Desc">UPDI</field>
+        <field name="Storage">SK1 2x2</field>
+        <field name="StorageDesc">K3-2336S-F1</field>
       </fields>
       <libsource lib="no_common" part="K3-2336S-F1" description=""/>
       <property name="Desc" value="UPDI"/>
+      <property name="Storage" value="SK1 2x2"/>
+      <property name="StorageDesc" value="K3-2336S-F1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -439,9 +614,13 @@
       <footprint>no_common:K3-2336S-F1</footprint>
       <fields>
         <field name="Desc">UPDI_TV</field>
+        <field name="Storage">SK1 2x2</field>
+        <field name="StorageDesc">K3-2336S-F1</field>
       </fields>
       <libsource lib="no_common" part="K3-2336S-F1" description=""/>
       <property name="Desc" value="UPDI_TV"/>
+      <property name="Storage" value="SK1 2x2"/>
+      <property name="StorageDesc" value="K3-2336S-F1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -452,9 +631,15 @@
       <footprint>no_common:Taster_4545</footprint>
       <fields>
         <field name="Desc">RST</field>
+        <field name="Handsolder">true</field>
+        <field name="Storage">SK1 4x3</field>
+        <field name="StorageDesc">Taster 4545</field>
       </fields>
       <libsource lib="no_common" part="Taster" description=""/>
       <property name="Desc" value="RST"/>
+      <property name="Handsolder" value="true"/>
+      <property name="Storage" value="SK1 4x3"/>
+      <property name="StorageDesc" value="Taster 4545"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -463,7 +648,13 @@
     <comp ref="U1">
       <value>SL2.1A</value>
       <footprint>Package_SO:SOP-16_3.9x9.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Storage">SK1 4x4</field>
+        <field name="StorageDesc">SL2.1A</field>
+      </fields>
       <libsource lib="no_common" part="SL2.1A" description=""/>
+      <property name="Storage" value="SK1 4x4"/>
+      <property name="StorageDesc" value="SL2.1A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -472,7 +663,13 @@
     <comp ref="U2">
       <value>CP2102N-A02-GQFN20R</value>
       <footprint>no_common:QFN20</footprint>
+      <fields>
+        <field name="Storage">SK1 4x4</field>
+        <field name="StorageDesc">CP2102N-A02</field>
+      </fields>
       <libsource lib="no_common" part="CP2102N-A02-GQFN20R" description="USB to UART FTDI FT232RL replacement"/>
+      <property name="Storage" value="SK1 4x4"/>
+      <property name="StorageDesc" value="CP2102N-A02"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -481,7 +678,13 @@
     <comp ref="Y1">
       <value>12MHz</value>
       <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
+      <fields>
+        <field name="Storage">SK1 1x3</field>
+        <field name="StorageDesc">Crystal 12MHz</field>
+      </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Storage" value="SK1 1x3"/>
+      <property name="StorageDesc" value="Crystal 12MHz"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
