@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/nijo/workspace/nahs-Bricks-GitHub/Interface/kicad/nahs-Bricks-Interface_v4.0_r2/nahs-Bricks-Interface_v4.0_r2.kicad_sch</source>
-    <date>Mi 22 Nov 2023 08:47:43 CET</date>
+    <date>So 03 Dez 2023 11:36:54 CET</date>
     <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -163,34 +163,34 @@
       <tstamps>30e03a99-c2bc-4f10-8d83-aa64aabd6ad7</tstamps>
     </comp>
     <comp ref="D2">
-      <value>RED</value>
+      <value>BLUE</value>
       <footprint>no_common:LED_0805_2012Metric</footprint>
       <fields>
         <field name="Desc">BRICK</field>
         <field name="Storage">MAG4</field>
-        <field name="StorageDesc">LED OrangeRed</field>
+        <field name="StorageDesc">LED Blue</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Desc" value="BRICK"/>
       <property name="Storage" value="MAG4"/>
-      <property name="StorageDesc" value="LED OrangeRed"/>
+      <property name="StorageDesc" value="LED Blue"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7da976fa-6f84-4146-948f-0e2f7aad5359</tstamps>
     </comp>
     <comp ref="D3">
-      <value>GREEN</value>
+      <value>YELLOW</value>
       <footprint>no_common:LED_0805_2012Metric</footprint>
       <fields>
         <field name="Desc">TX</field>
         <field name="Storage">MAG4</field>
-        <field name="StorageDesc">LED Green</field>
+        <field name="StorageDesc">LED Yellow</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Desc" value="TX"/>
       <property name="Storage" value="MAG4"/>
-      <property name="StorageDesc" value="LED Green"/>
+      <property name="StorageDesc" value="LED Yellow"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-Bricks-Interface_v4.0_r2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

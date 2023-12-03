@@ -610,14 +610,14 @@
     (property "Sheetfile" "nahs-Bricks-Interface_v4.0_r2.kicad_sch")
     (property "Sheetname" "")
     (property "Storage" "MAG4")
-    (property "StorageDesc" "LED Green")
+    (property "StorageDesc" "LED Yellow")
     (path "/9aebf78f-d089-46be-ab22-640c2018930e")
     (attr smd)
     (fp_text reference "D3" (at 2.4 0 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15123efe-cd39-4f4c-817f-624e226544b9)
     )
-    (fp_text value "GREEN" (at 0 1.65 90) (layer "F.Fab") hide
+    (fp_text value "YELLOW" (at 0 1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e46dfb6b-d9e6-481b-bd3e-b2aa07b2cfee)
     )
@@ -2177,14 +2177,14 @@
     (property "Sheetfile" "nahs-Bricks-Interface_v4.0_r2.kicad_sch")
     (property "Sheetname" "")
     (property "Storage" "MAG4")
-    (property "StorageDesc" "LED OrangeRed")
+    (property "StorageDesc" "LED Blue")
     (path "/7da976fa-6f84-4146-948f-0e2f7aad5359")
     (attr smd)
     (fp_text reference "D2" (at 2.4 0 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0bfdc4c-aaf4-4b88-abd4-270b0dc7dbff)
     )
-    (fp_text value "RED" (at 0 1.65 90) (layer "F.Fab") hide
+    (fp_text value "BLUE" (at 0 1.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ff743390-43a0-4aa8-9656-e4b431564012)
     )
